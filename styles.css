@@ -1,47 +1,49 @@
 .canvas{
   width: 500px;
   height: 600px;
-  background-color: gray;
+  background-color: maroon;
   overflow: hidden;
   filter: blur(2px);
+
 }
 
 .frame{
   width: 500px;
-  margin: 20px auto;
   border: 50px solid black;
-  padding: 50px;
-
+  margin: 20px auto;
+  padding: 20px
+  
 }
+
 .one{
   width: 415px;
-  height: 120px;
-  background-color: white;
+  height: 200px;
+  background-color: gold;
   margin: 20px auto;
-  border-radius: 7px;
-  filter: blur(3px);
-  box-shadow: 0 0 3px 3px;
-  transform: rotate(-0.2deg);
+  border-radius: 9px;
+  box-shadow: 0px 0 3px 3px gold;
+  transform: rotate(-0.6deg);
 }
 
 .two{
-  width: 420;
-  height: 200px;
-  background-color: maroon;
-  margin: 20px;
-  border-radius: 10px;
-  filter: blur(2px);
-}
-
-.three{
-  width: 91%;
-  height: 25%;
-  background-color: #333d29;
+  width: 475px;
+  height: 150px;
+  background-color: blue;
   margin: 20px auto;
-  border-radius: 30px 30px 60px 12px;
-  filter: blur(3px);
+  border-radius: 15px;
+  box-shadow: 0px 2px 20px 3px blue;
+  transform: rotate(0.4deg);
 }
 
 .one, .two{
   filter: blur(1px);
+}
+
+.three{
+  width: 91%;
+  height: 28%;
+  background-color: red;
+  margin: auto;
+  border-radius: 30px 20px 80px 20px ;
+  filter: blur(2px);
 }
